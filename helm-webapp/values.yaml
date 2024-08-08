@@ -3,9 +3,9 @@ appName: myhelmapp
 port: 80
 
 configmap:
-  name: myhelmapp-configmap-v3
-  data:
-    CUSTOM_HEADER: 'This app was deployed with helm and this is <h2> NOT MY CODE is it </h2>!'
+  name: myhelmapp-configmap-v4
+  data: 
+    CUSTOM_HEADER: 'This app was deployed with helm and this is NOT MY CODE is it!'
 
 image:
   name: devopsjourney1/mywebapp
