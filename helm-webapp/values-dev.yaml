@@ -1,7 +1,7 @@
 
-replicas: 1
+replicas: 8
 
 
 configmap:
   data:
-    CUSTOM_HEADER: 'This is on the DEV environment, Something does work!'
+    CUSTOM_HEADER: 'This is on the DEV environment, Something does work right!'
